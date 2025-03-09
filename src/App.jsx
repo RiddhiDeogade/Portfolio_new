@@ -6,7 +6,8 @@ import Footer from './components/Footer'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Projects from './components/Projects'
-import Service from './components/Service'
+import Cert from './components/Cert'
+import Extras from './Extras'
 
 function App() {
 
@@ -15,8 +16,9 @@ function App() {
         <Navbar />
         <Hero />
         <About />
-        <Service />
+        <Cert/>
         <Projects />
+        <Extras/>
         <Contact />
         <Footer />
     </div>

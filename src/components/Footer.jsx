@@ -46,12 +46,23 @@ const Footer = () => {
             <a href="#" className="text-gray-400 hover:text-white">
               <FaTwitter />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaLinkedin />
-            </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaGithub />
-            </a>
+      <a
+        href="https://www.linkedin.com/in/riddhi-deogade"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-white transition-transform duration-300 hover:scale-110"
+      >
+        <FaLinkedin size={19} />
+      </a>
+      <a
+        href="https://github.com/RiddhiDeogade"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-gray-400 hover:text-white transition-transform duration-300 hover:scale-110"
+      >
+        <FaGithub size={19} />
+      </a>
+  
           </div>
           <div className="flex space-x-4">
             <a href="#" className="text-gray-400 hover:text-white">

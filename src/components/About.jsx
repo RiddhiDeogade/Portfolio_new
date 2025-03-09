@@ -1,6 +1,7 @@
 import React from "react";
 import AboutImage from "../assets/about_rd_image.png";
 
+
 const About = () => {
   return (
     <div className="bg-black text-white py-20" id="about">
@@ -12,13 +13,25 @@ const About = () => {
             alt=""
             className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
           />
-          <div className="flex-1">
-            <p className="text-lg mb-8">
-              I am a passionate Java developer with a focus on building
-              modern and responsive web applications. With a strong foundation
-              in both frontend and backend technologies, I strive to create
-              seamless and efficient user experiences.
-            </p>
+          <div className="flex-6">
+  <p className="text-lg mb-8">
+    I am a passionate Java developer with a focus on building modern and 
+    responsive web applications. With a strong foundation in both frontend 
+    and backend technologies, I strive to create seamless and efficient 
+    user experiences.
+  </p>
+
+  {/* Education Section */}
+  <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-2">
+    Education
+  </h3>
+  <p className="text-lg">
+    <span className="font-bold">Ramdeobaba University, Nagpur (2022 - 2026)</span> <br />
+    - Electronics and Computer Science Engineering [CGPA: 9.01]<br/>
+    -<span className="font-bold">Minors Degree:</span> Information Technology
+  </p>
+
+<br/><br/><br/>       
             <div className="space-y-4">
   <div className="flex items-center">
     <label htmlFor="htmlandcss" className="w-2/12">HTML & CSS</label>

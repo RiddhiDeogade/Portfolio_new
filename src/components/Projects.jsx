@@ -15,7 +15,7 @@ const projects = [
     name: "Portfolio Website",
     technologies: "ReactJS",
     image: portfolioImage,
-    github: " ",
+    github: "https://riddhideogade.github.io/Portfolio_new/",
   },
   // {
   //   id: 3,
