@@ -1,5 +1,5 @@
 import React from "react";
-import AboutImage from "../assets/about_rd_image.png";
+import AboutImage from "../assets/about_rd_image.jpg";
 
 
 const About = () => {
@@ -14,129 +14,130 @@ const About = () => {
             className="w-72 h-80 rounded object-cover mb-8 md:mb-0"
           />
           <div className="flex-6">
-  <p className="text-lg mb-8">
-    I am a passionate Java developer with a focus on building modern and 
-    responsive web applications. With a strong foundation in both frontend 
-    and backend technologies, I strive to create seamless and efficient 
-    user experiences.
-  </p>
+            <p className="text-lg mb-8">
+              I am a passionate Java developer with a strong focus on building modern, 
+              responsive, and scalable web applications. With a solid foundation in both frontend and backend technologies, 
+              I aim to deliver seamless and efficient user experiences. I’m also expanding my expertise in Cloud Computing, particularly 
+              Amazon Web Services (AWS).
+            </p>
 
-  {/* Education Section */}
-  <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-2">
-    Education
-  </h3>
-  <p className="text-lg">
-    <span className="font-bold">Ramdeobaba University, Nagpur (2022 - 2026)</span> <br />
-    - Electronics and Computer Science Engineering [CGPA: 9.01]<br/>
-    -<span className="font-bold">Minors Degree:</span> Information Technology
-  </p>
+            {/* Education Section */}
+            <h3 className="text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-2">
+              Education
+            </h3>
+            <p className="text-lg">
+              <span className="font-bold">Ramdeobaba University, Nagpur (2022 - 2026)</span> <br />
+              - Electronics and Computer Science Engineering [CGPA: 9]<br />
+              -<span className="font-bold">Minors Degree:</span> Information Technology
+            </p>
 
-<br/><br/><br/>       
+            <br /><br /><br />
             <div className="space-y-4">
-  <div className="flex items-center">
-    <label htmlFor="htmlandcss" className="w-2/12">HTML & CSS</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="htmlandcss" className="w-2/12">HTML & CSS</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-10/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="java" className="w-2/12">Java</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="java" className="w-2/12">Java</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+      transform transition-transform duration-300 hover:scale-105 w-11/12"></div>
+                </div>
+              </div>
+
+              <div className="flex items-center">
+                <label htmlFor="javascript" className="w-2/12">JavaScript</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-8/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="javascript" className="w-2/12">JavaScript</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-      transform transition-transform duration-300 hover:scale-105 w-8/12"></div>
-    </div>
-  </div>
+              <div className="flex items-center">
+                <label htmlFor="python" className="w-2/12">Python</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+      transform transition-transform duration-300 hover:scale-105 w-4/12"></div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="python" className="w-2/12">Python</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-      transform transition-transform duration-300 hover:scale-105 w-5/12"></div>
-    </div>
-  </div>
-
-  <div className="flex items-center">
-    <label htmlFor="hibernate" className="w-2/12">Hibernate</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="hibernate" className="w-2/12">DBMS</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-7/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="react" className="w-2/12">React</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="react" className="w-2/12">React</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-9/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-    <div className="flex items-center">
-    <label htmlFor="mysql" className="w-2/12">MySQL</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="mysql" className="w-2/12">MySQL</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-9/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="springboot" className="w-2/12">Spring Boot</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="springboot" className="w-2/12">Spring Boot</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-8/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="competitive" className="w-2/12">Competitive Programming</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="fastlearner" className="w-2/12">Data Structures and Algorithm</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-10/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="github" className="w-2/12">GitHub</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="competitive" className="w-2/12">AWS</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-9/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="timemanagement" className="w-2/12">Time Management</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="github" className="w-2/12">GitHub</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+      transform transition-transform duration-300 hover:scale-105 w-8/12"></div>
+                </div>
+              </div>
+
+              <div className="flex items-center">
+                <label htmlFor="timemanagement" className="w-2/12">Time Management</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-10/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="communication" className="w-2/12">Communication Skills</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
+              <div className="flex items-center">
+                <label htmlFor="communication" className="w-2/12">Communication Skills</label>
+                <div className="grow bg-gray-800 rounded-full h-2.5">
+                  <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
       transform transition-transform duration-300 hover:scale-105 w-9/12"></div>
-    </div>
-  </div>
+                </div>
+              </div>
 
-  <div className="flex items-center">
-    <label htmlFor="fastlearner" className="w-2/12">Fast Learner</label>
-    <div className="grow bg-gray-800 rounded-full h-2.5">
-      <div className="bg-gradient-to-r from-green-400 to-blue-500 h-2.5 rounded-full 
-      transform transition-transform duration-300 hover:scale-105 w-10/12"></div>
-    </div>
-  </div>
-</div>
+            </div>
 
 
             {/* <div className="mt-12 flex justify-between text-center">

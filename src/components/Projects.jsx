@@ -1,29 +1,37 @@
 import React from "react";
 import emsImage from "../assets/pg_ss.png";
 import portfolioImage from "../assets/port_ss.png";
+import voterz from "../assets/voterz.png";
 
 const projects = [
   {
     id: 1,
-    name: "Expense Management System",
-    technologies: "Spring Boot",
-    image: emsImage,
-    github: " ",
+    name: "Portfolio Website",
+    technologies: "ReactJS, Tailwind CSS",
+    image: portfolioImage,
+    github: "https://github.com/RiddhiDeogade/Portfolio_new",
   },
   {
     id: 2,
-    name: "Portfolio Website",
-    technologies: "ReactJS",
-    image: portfolioImage,
-    github: "https://riddhideogade.github.io/Portfolio_new/",
+    name: "Expense Management System",
+    technologies: "React, MySQL, Spring Boot",
+    image: emsImage,
+    github: "https://github.com/RiddhiDeogade/Piggy-Bank",
   },
-  // {
-  //   id: 3,
-  //   name: "Book MS",
-  //   technologies: "MERN Stack",
-  //   image: employeeMSImage,
-  //   github: "https://github.com/YouafKhan1",
-  // },
+  {
+    id: 3,
+    name: "PetrolPartner",
+    technologies: "React, Tailwind CSS",
+    image: voterz,
+    github:"" ,
+  },
+  {
+    id: 4,
+    name: "Voterz",
+    technologies: "Spring Boot, Thymleaf",
+    image: voterz,
+    github: "https://github.com/RiddhiDeogade/voterz",
+  },
 ];
 
 const Projects = () => {
@@ -33,7 +41,7 @@ const Projects = () => {
         <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div key={project.id} className="bg-gray-800 p-6 rounded-lg hover:shadow-lg 
+            <div key={project.id} className="bg-gray-800 p-5 rounded-lg hover:shadow-lg 
             transform transition-transform duration-300 hover:scale-105">
               <img src={project.image} alt={project.name} className="rounded-lg mb-4 
               w-full h-48 object-cover" />

@@ -26,6 +26,11 @@ const Certs = [
     title: "Introduction to Web Development with HTML, CSS & JS",
     description: "https://drive.google.com/file/d/18WYHSLZ6APT7Jp5syNS-SXJGPqH4JLJX/view?usp=sharing",
   },
+  {
+    id: 6,
+    title: "AWS cloud Virtual Internship",
+    description: "https://drive.google.com/file/d/1DC2dI0cIRbGoz-okhNS0I8Y383ZVtAMs/view?usp=drive_link",
+  },
 ];
 
 const Cert = () => {
