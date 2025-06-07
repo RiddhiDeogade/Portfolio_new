@@ -2,7 +2,7 @@ import React from "react";
 import emsImage from "../assets/pg_ss.png";
 import portfolioImage from "../assets/port_ss.png";
 import voterz from "../assets/voterz.png";
-
+import ppbg from "../assets/petrolPartnerbg.png";
 const projects = [
   {
     id: 1,
@@ -22,8 +22,8 @@ const projects = [
     id: 3,
     name: "PetrolPartner",
     technologies: "React, Tailwind CSS",
-    image: voterz,
-    github:"" ,
+    image: ppbg,
+    github:"https://github.com/RiddhiDeogade/PetrolPartner" ,
   },
   {
     id: 4,
