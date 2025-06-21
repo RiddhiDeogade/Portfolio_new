@@ -23,8 +23,8 @@ const Certs = [
   },
   {
     id: 5,
-    title: "Introduction to Web Development with HTML, CSS & JS",
-    description: "https://drive.google.com/file/d/18WYHSLZ6APT7Jp5syNS-SXJGPqH4JLJX/view?usp=sharing",
+    title: "Java FullStack Development",
+    description: "https://drive.google.com/drive/folders/15j_luHvfA0KiNNnVmrOKD8gD3mOB_D_o?usp=sharing",
   },
   {
     id: 6,
